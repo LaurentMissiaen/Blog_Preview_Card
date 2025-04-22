@@ -1,1 +1,26 @@
-body
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(47, 88%, 63%);
+  height: 100%;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.card > img {
+  margin: 0, auto;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.tab {
+}
