@@ -22,5 +22,16 @@ body {
   border-radius: 12px;
 }
 
+p,
+h1 {
+  font-family: Figtree;
+  text-align: left;
+}
+
 .tab {
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding: 5px 12px;
+  border-radius: 5px;
 }
