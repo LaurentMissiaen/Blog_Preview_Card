@@ -23,9 +23,23 @@ body {
 }
 
 p,
-h1 {
+h2 {
   font-family: Figtree;
   text-align: left;
+  color: hsl(0, 0%, 7%);
+}
+
+p {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
 }
 
 .tab {
@@ -35,3 +49,20 @@ h1 {
   padding: 5px 12px;
   border-radius: 5px;
 }
+
+.author {
+  display: inline-flex;
+}
+
+.author > p {
+  align-self: center;
+  padding-left: 15px;
+  font-weight: 800;
+}
+
+.author > img {
+  width: 45px;
+  height: 44px;
+}
+
+/* spacing in paragraph nog aanpassen! */
