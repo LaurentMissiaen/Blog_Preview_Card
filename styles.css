@@ -40,6 +40,7 @@ h2 {
 .paragraph {
   font-size: 16px;
   color: hsl(0, 0%, 42%);
+  line-height: 1.5;
 }
 
 .tab {
@@ -61,8 +62,7 @@ h2 {
 }
 
 .author > img {
-  width: 45px;
-  height: 44px;
+  width: 35px;
+  height: 34px;
+  align-self: center;
 }
-
-/* spacing in paragraph nog aanpassen! */
