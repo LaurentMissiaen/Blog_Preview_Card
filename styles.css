@@ -33,10 +33,16 @@ h2 {
 
 p {
   font-weight: 500;
+  font-size: 14px;
 }
 
 h2 {
   font-weight: 800;
+}
+
+h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 
 .paragraph {
@@ -51,6 +57,7 @@ h2 {
   width: fit-content;
   padding: 5px 12px;
   border-radius: 5px;
+  font-size: 14px;
 }
 
 .author {
@@ -61,6 +68,7 @@ h2 {
   align-self: center;
   padding-left: 15px;
   font-weight: 800;
+  font-size: 14px;
 }
 
 .author > img {
