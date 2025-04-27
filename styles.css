@@ -36,6 +36,7 @@ p {
   font-size: 14px;
 }
 
+.tab,
 h2 {
   font-weight: 800;
 }
@@ -52,7 +53,6 @@ h2:hover {
 }
 
 .tab {
-  font-weight: 800;
   background-color: hsl(47, 88%, 63%);
   width: fit-content;
   padding: 5px 12px;
