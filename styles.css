@@ -76,3 +76,12 @@ h2:hover {
   height: 34px;
   align-self: center;
 }
+
+@media (max-width: 375px) {
+  .card {
+    width: 290px;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+}
